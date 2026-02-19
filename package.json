@@ -1,0 +1,44 @@
+{
+  "name": "@avp-protocol/avp",
+  "version": "0.1.0",
+  "description": "Agent Vault Protocol - TypeScript SDK",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src tests",
+    "format": "prettier --write src tests",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "avp",
+    "vault",
+    "credentials",
+    "secrets",
+    "ai-agents",
+    "security"
+  ],
+  "author": "AVP Protocol Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avp-protocol/avp-ts.git"
+  },
+  "homepage": "https://avp-protocol.github.io/website",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
