@@ -1,7 +1,7 @@
 {
-  "name": "@avp-protocol/avp",
+  "name": "avp-ts-sdk",
   "version": "0.1.0",
-  "description": "Agent Vault Protocol - TypeScript SDK",
+  "description": "Agent Vault Protocol - TypeScript/JavaScript SDK for secure AI agent credential management",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -22,9 +22,14 @@
     "credentials",
     "secrets",
     "ai-agents",
-    "security"
+    "security",
+    "agent-vault-protocol",
+    "encryption",
+    "langchain",
+    "openai",
+    "anthropic"
   ],
-  "author": "AVP Protocol Contributors",
+  "author": "Omar Abdelmalek <abdelmalek.omar1@gmail.com>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
